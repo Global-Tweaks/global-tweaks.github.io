@@ -194,3 +194,18 @@ Description: Awesome Short Description
 Author: cobraios < http://cobraios.github.io >
 Name: XenInfo
 
+Package: com.globaltweaks.globalaestyle
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Global Tweaks
+Filename: ./debs/Global-AEstyle.deb
+Size: 53592
+MD5sum: 3e8d957b92270f8bf86ee2ca21224ba7
+SHA1: 24cf56675b861d5edb5387d5509b796155b56801
+SHA256: ca66bc07faa3631829a4d0f59047b5d8f0c9db1fc7c47d1f6889cac2d2222496
+Section: Themes
+Description: This is a theme that will make your icons change in a oval shape.
+Author: Global Tweaks <globaliphonerepo@gmail.com>
+Icon: file:///Applications/Global.app/themes.png
+Name: Global AEstyle
+
