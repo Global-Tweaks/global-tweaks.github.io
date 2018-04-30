@@ -29,13 +29,14 @@ Version: 0.0.1-2
 Architecture: iphoneos-arm
 Maintainer: Global Tweaks
 Filename: ./debs/Global-AEstyle.deb
-Size: 53592
-MD5sum: 3e8d957b92270f8bf86ee2ca21224ba7
-SHA1: 24cf56675b861d5edb5387d5509b796155b56801
-SHA256: ca66bc07faa3631829a4d0f59047b5d8f0c9db1fc7c47d1f6889cac2d2222496
+Size: 53648
+MD5sum: 1580ffd7fbd2332b853014fcfa9cfaea
+SHA1: 57bbdf03a4ed09e9bc0322c21be94ea22d064a6e
+SHA256: 5929e1139449303c398c5d821628ce41f56e4509375241f539dcb5ceb1392df4
 Section: Themes
 Description: This is a theme that will make your icons change in a oval shape.
 Author: Global Tweaks <globaliphonerepo@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
 Icon: file:///Applications/Global.app/themes.png
 Name: Global AEstyle
 
