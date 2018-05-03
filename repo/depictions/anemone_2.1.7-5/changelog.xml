@@ -1,0 +1,13 @@
+<changelog>
+	<changes>
+		<version>2.1.7-5</version>
+		<change>1. Fix Alt Icon Selector on iOS 11</change>
+		<change>2. Fix dock sizing on iOS 11</change>
+		<change>3. Fix Snapchat DRM being triggered (not tested with any themes enabled that theme snapchat itself)</change>
+		<change>4. Remove April Fools' joke from last version</change>
+	</changes>
+	<changes>
+		<version>1.0.0-1</version>
+		<change>Initial Release</change>
+	</changes>
+</changelog>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Tek</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+<script type="text/javascript">
+,"#compatibilityCheck" :
+			{"type":"custom"
+				,"source":"package>compatibility>firmware"
+				,"render":function(element,source){
+					var res = ios_version_check(
+						$(source).find("miniOS").text(),
+						$(source).find("maxiOS").text(),
+						$(source).find("otherVersions").text(),
+						function(message,isBad) {
+							$(element).html(message)
+							.addClass( (isBad?'alert-danger':'alert-success'));
+						}
+					);
+					if(res==0) {$(element).hide()}
+				}
+			}
+			</script>
+</head>
+
+<body><center><br />
+    <div id="packageInformation">
+        <div id="package-header" class="container">
+            <div class="jumbotron">
+                <h1 id="packageName">Anemone</h1>
+                <p>Brought to you by Global Tek</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h6 class="badge badge-primary">Compatible for IOS 7 - IOS 11.1.2</h6>
+    </div>
+    <div class="container jumbotron">
+        <h4>DESCRIPTION<br></h4>
+        <div class="card-out">
+            <p class="card-text">Paragraph</p>
+        </div>
+    </div></center>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

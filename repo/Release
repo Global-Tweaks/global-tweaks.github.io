@@ -1,8 +1,8 @@
-Origin: Global Tweaks 
-Label: Global Tweaks
+Origin: Global Tek
+Label: Global Tek
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: 
+Description: Global Tek - Cydia Repo
